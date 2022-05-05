@@ -1,47 +1,39 @@
 ---
 sidebar_position: 1
+slug: /
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+**Konspot** is an Enterprise-Grade video meeting solution for businesses who cares for crystal clear voice and high quality video in conversations!
 
-## Getting Started
+- A personal, secure & more effective source of communcation than audio
+- Facial expressions & body language can be seen by all the parties
+- Currently supports 20+ use cases, such as
+- HR, Customer Support, Lead Generation,
+- Sales Generation, Teleconsulting etc.
+- Nearly eliminates expensive & time consuming travels, with environmental benefits
+- No extra hardware needed except computer with webcam
 
-Get started by **creating a new site**.
+# Revive professional connections! Meet productively with HD video quality
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+**Schedule meetings with availability check**
 
-### What you'll need
+Konspot gives you ability to pass control to your customers in scheduling of meeting. You may setup your availability of date and time and your client has option of selecting out of those timings to meet with you. Syncs with Google, Outlook and iCloud calendar. Time zone intelligence with notifications and reminder setup.
 
-- [Node.js](https://nodejs.org/en/download/) version 14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+**Screen Sharing with Whiteboarding**
 
-## Generate a new site
+Konspot screen-sharing feature enables users to share their content on their computer’s desktop, mobile or any device with one or more people. Shared screen videos can also be recording simultaneously and can be saved or archived in .mp4 format for future reference.
 
-Generate a new Docusaurus site using the **classic template**.
+**Instant chat with text, emojis & attachments**
 
-The classic template will automatically be added to your project after you run the command:
+One-on-one or One-to-everyone text messaging with emojis are the ways you can communicate with other participants during the video call. You can further add attachments to the conversation while using text messages.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+**Performance Metrics, Reporting & Dashboard**
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+Easily track success and failure of your session through a measurable values. Session’s overall performance, utilization, active connections, participants, network conditions and its relevancy to your business are few.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+**Unlimited recording of sessions**
 
-## Start your site
+With Konspot you can record meetings for future reference or for compliance needs with just a click. You can either save the recordings to your local server/computer or on the cloud. With the help of Open Apis, you may record and save the videos on your own cloud storage or own data center storage.
 
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
