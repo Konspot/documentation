@@ -62,6 +62,12 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          {
+            href: 'https://documenter.getpostman.com/view/23637706/2s83tCKYin',
+            label: 'Postman Collection',
+            position: 'right',
+            className: 'button button--primary button--lg _knspt-btn'
+          },
         ],
       },
       footer: {

@@ -5,7 +5,8 @@ sidebar_position: 3
 # Create Konspot Meetings
 
 **Konspot Backend Apis to Create And Validate Rooms/Meetings**
-
+ 
+![Click for Postman Collection](https://connect.konspot.com/konspot_api.js)
 - Create Room/Meeting.
 	- `https://develop.konspot.com/api/quickmeeting?api=Apikey&roomkey=RoomKey`
 - Validate Room.
