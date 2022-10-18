@@ -6,7 +6,7 @@ sidebar_position: 3
 
 **Konspot Backend Apis to Create And Validate Rooms/Meetings**
  
-**[Click for Postman Collection](https://connect.konspot.com/konspot_api.js)**
+**[Click for Postman Collection](https://documenter.getpostman.com/view/23637706/2s83tCKYin)**
 
 - Create Room/Meeting.
 	- `https://develop.konspot.com/api/quickmeeting?api=Apikey&roomkey=RoomKey`
@@ -19,5 +19,5 @@ sidebar_position: 3
 - Save Chat
 	- `https://develop.konspot.com/api/saveChat?room_id=room_id&sendby=participantName&sendto=Everyone&user_id=user_id&chattype=Public&chatcontent=chatcontent&attachment=filePath&filetype=ext&filesize=fileSize&api=ApiKey&roomkey=RoomKey`
 
-- **[Click for Postman Collection](https://connect.konspot.com/konspot_api.js)**
+- **[Click for Postman Collection](https://documenter.getpostman.com/view/23637706/2s83tCKYin)**
   
