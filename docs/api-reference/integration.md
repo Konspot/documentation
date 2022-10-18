@@ -7,7 +7,7 @@ sidebar_position: 1
 To enable the KONSPOT meet in your application you must use JavaScript library script and integrate it into your application:
 
 ```js
-<script src="https://connect.konspot.com/external_api.js"></script>
+<script src="https://connect.konspot.com/konspot_api.js"></script>
 ```
 
 ## Creating the Konspot Meet API object
