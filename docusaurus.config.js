@@ -66,7 +66,7 @@ const config = {
             href: 'https://documenter.getpostman.com/view/23637706/2s83tCKYin',
             label: 'Postman Collection',
             position: 'right',
-            className: 'button button--primary button--lg _knspt-btn'
+            className: 'button button--primary _knspt-btn'
           },
         ],
       },
