@@ -57,3 +57,6 @@
   color: #fff !important;
   text-decoration: none;
 }
+.menu.thin-scrollbar {
+  background-color: #f2f0ed !important;
+}

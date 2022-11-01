@@ -72,7 +72,7 @@ const config = {
             href: "https://documenter.getpostman.com/view/23637706/2s83tCKYin",
             label: "Postman Collection",
             position: "right",
-            className: "button button--primary _knspt-btn",
+            // className: "button button--primary _knspt-btn",
           },
         ],
       },
@@ -95,6 +95,10 @@ const config = {
           {
             title: "Contact",
             items: [
+              {
+                label: "Slack Community",
+                href: "https://accounts-dev.konspot.com/join-slack",
+              },
               {
                 label: "Linkedin",
                 href: "https://linkedin.com/company/konspot",
