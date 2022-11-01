@@ -11,16 +11,28 @@ sidebar_position: 2
 - After Login you will have option to create project from dashboard.
   ![Create New Project](/img/tutorial/new-project.png)
 - **Project Configuration** 
-	- Project Details
-	- Create/Use API Keys
+	- **Project Details**
+
+	  ![Create New Project](/img/tutorial/project-details.png)
+
+	- **Create/Use API Keys**
+
 	  ![Create New Project](/img/tutorial/api-keys.png)
-	- Create/Use Roles
-	  ![Create New Project](/img/tutorial/roles.png)
-	- Create/Use Rooms
-	  ![Create New Project](/img/tutorial/rooms.png)
-	- Styles (Brand Color And Logo for No Code Solution)
+
+	- **Create/Use Roles**
+
+	  ![Create New Project](/img/tutorial/permissions.png)
+
+	- **Whitelist Domains**
+
+	  ![Create New Project](/img/tutorial/domains.png)
+
+	- **Styles (Brand Color And Logo for No Code Solution)**
+
 	  ![Create New Project](/img/tutorial/styles.png)
-	- No Code(Scripts) 
+
+	- **No Code(Scripts)**
+
 	  ![Create New Project](/img/tutorial/launch.png)
 
 	  
