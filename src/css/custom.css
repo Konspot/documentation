@@ -14,10 +14,11 @@
   --ifm-color-primary-lighter: #359962;
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
+  --ifm-navbar-background-color: #e16536;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
+[data-theme="dark"] {
   --ifm-color-primary: #e16536;
   --ifm-color-primary-dark: #e16536;
   --ifm-color-primary-darker: #e16536;
@@ -25,6 +26,7 @@
   --ifm-color-primary-light: #29d5b0;
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
+  --ifm-navbar-background-color: #e16536;
 }
 
 .docusaurus-highlight-code-line {
@@ -34,13 +36,27 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
-[data-theme='dark'] .docusaurus-highlight-code-line {
+[data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-
 /*Custom CSS*/
 
-._knspt-btn,._knspt-btn:hover{
-  color:#ffffff; 
+._knspt-btn,
+._knspt-btn:hover {
+  color: #ffffff;
+}
+
+.navbar__link {
+  color: #fff !important;
+}
+.navbar__item:hover {
+  color: #fff !important;
+}
+.navbar__link--active {
+  color: #fff !important;
+  text-decoration: none;
+}
+.menu.thin-scrollbar {
+  background-color: #f2f0ed !important;
 }

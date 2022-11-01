@@ -1,40 +1,42 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Konspot Documentation',
-  tagline: 'Meet, record & track online business conversations',
-  url: 'https://docs.konspot.com',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'Konspot', // Usually your GitHub org/user name.
-  projectName: 'konspot', // Usually your repo name.
+  title: "Konspot Documentation",
+  tagline: "Meet, record & track online business conversations",
+  url: "https://docs.konspot.com",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.ico",
+  organizationName: "Konspot", // Usually your GitHub org/user name.
+  projectName: "konspot", // Usually your repo name.
 
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          routeBasePath: '/',
-          // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
-        blog: {
-          showReadingTime: true,
+          sidebarPath: require.resolve("./sidebars.js"),
+          routeBasePath: "/",
+          sidebarCollapsible: false,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
+        // blog: {
+        //   showReadingTime: true,
+        //   // Please change this to your repo.
+        //   editUrl:
+        //     "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+        // },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       }),
     ],
@@ -44,84 +46,92 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Konspot',
+        title: "",
         logo: {
-          alt: 'Konspot',
-          src: 'img/logo.svg',
+          alt: "Konspot",
+          src: "https://demo.konspot.com/manage/images/logo.png",
         },
         items: [
-          // {
-          //   type: 'doc',
-          //   docId: 'intro',
-          //   position: 'left',
-          //   label: 'Docs',
-          // },
-          //{to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/konspot/documentation',
-            label: 'GitHub',
-            position: 'right',
+            type: "doc",
+            docId: "intro",
+            position: "left",
+            label: "Docs",
           },
           {
-            href: 'https://documenter.getpostman.com/view/23637706/2s83tCKYin',
-            label: 'Postman Collection',
-            position: 'right',
-            className: 'button button--primary _knspt-btn'
+            to: "api-reference/integration",
+            label: "API Reference",
+            position: "left",
+          },
+          {
+            href: "https://github.com/konspot/documentation",
+            label: "GitHub",
+            position: "right",
+          },
+          {
+            href: "https://documenter.getpostman.com/view/23637706/2s83tCKYin",
+            label: "Postman Collection",
+            position: "right",
+            // className: "button button--primary _knspt-btn",
           },
         ],
       },
       footer: {
-        style: 'dark',
-         links: [
-        //   {
-        //     title: 'Docs',
-        //     items: [
-        //       {
-        //         label: 'Tutorial',
-        //         to: '/docs/intro',
-        //       },
-        //     ],
-        //   },
-        //   {
-        //     title: 'Community',
-        //     items: [
-        //       {
-        //         label: 'Stack Overflow',
-        //         href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-        //       },
-        //       {
-        //         label: 'Discord',
-        //         href: 'https://discordapp.com/invite/docusaurus',
-        //       },
-        //       {
-        //         label: 'Twitter',
-        //         href: 'https://twitter.com/docusaurus',
-        //       },
-        //     ],
-        //   },
-        //   // {
-        //   //   title: 'More',
-        //   //   items: [
-        //   //     {
-        //   //       label: 'Blog',
-        //   //       to: '/blog',
-        //   //     },
-        //   //     {
-        //   //       label: 'GitHub',
-        //   //       href: 'https://github.com/facebook/docusaurus',
-        //   //     },
-        //   //   ],
-        //   // },
-            {
-            html: `
-                <a href="https://www.konspot.com" target="_blank" rel="noreferrer noopener" aria-label="Konspot">
-                  <img src="https://demo.konspot.com/manage/images/logo.png" width="250px" alt="Konspot" />
-                </a>
-              `,
-            },
-         ],
-        
-        copyright: `Copyright © ${new Date().getFullYear()} Konspot`,
+        style: "dark",
+        links: [
+          {
+            title: "Docs",
+            items: [
+              {
+                label: "Tutorial",
+                to: "/",
+              },
+              {
+                label: "API Reference",
+                to: "api-reference/integration",
+              },
+            ],
+          },
+          {
+            title: "Contact",
+            items: [
+              {
+                label: "Slack Community",
+                href: "https://accounts-dev.konspot.com/join-slack",
+              },
+              {
+                label: "Linkedin",
+                href: "https://linkedin.com/company/konspot",
+              },
+              {
+                label: "Contact Us",
+                href: "https://konspot.com/contact-us/",
+              },
+            ],
+          },
+          {
+            title: "More",
+            items: [
+              {
+                label: "Privacy Policy",
+                href: "https://konspot.com/privacy-policy/",
+              },
+              {
+                label: "Terms & Conditions",
+                href: "https://konspot.com/terms-and-conditions/",
+              },
+            ],
+          },
+          // {
+          //   html: `
+          //       <a href="https://www.konspot.com" target="_blank" rel="noreferrer noopener" aria-label="Konspot">
+          //         <img src="https://demo.konspot.com/manage/images/logo.png" width="250px" alt="Konspot" />
+          //       </a>
+          //     `,
+          // },
+        ],
+
+        copyright: `Copyright © ${new Date().getFullYear()} Konspot. All Rights Reserved.`,
       },
       prism: {
         theme: lightCodeTheme,
